@@ -1,0 +1,24 @@
+# Core environment
+python>=3.10
+
+# Embeddings + Models
+transformers==4.44.2
+sentence-transformers==3.0.1
+
+# Vector Database (Milvus client)
+pymilvus==2.3.6
+
+# Evaluation
+ragas==0.1.13
+datasets==2.20.0
+evaluate==0.4.2
+
+# Utils
+tqdm==4.66.4
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+
+# LLM calls
+openai==1.43.0
+python-dotenv==1.0.1
